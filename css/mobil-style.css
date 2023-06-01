@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+:root{
+    /* ### Primary */
+
+--Gradient:linear-gradient(hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+
+/* ### Neutral */
+
+--Pale-Blue: hsl(243, 100%, 93%);
+--Grayish-Blue: hsl(229, 7%, 55%);
+--Dark-Blue: hsl(228, 56%, 26%);
+--Very-Dark-Blue: hsl(229, 57%, 11%);
+
+}
+
+main{
+  height: 100vh;
+  background-color: var(--Very-Dark-Blue);
+  background-image: url("../images/bg-mobile.png");
+  background-size: cover;
+  
+}
+p{
+  color: white;
+}
+section{
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center;
+
+}
+.box-f{
+  width: 200px;
+  padding: 40px;
+  margin-top: 20%;
+  position: relative;
+  background-color: var(--Dark-Blue);
+  border-radius: 5px 75px 5px 5px;
+  }
+  .logo img{
+    width: 120px;
+    margin-top: -20px;
+    margin-left: 0px;
+  }
+  .icon{
+    margin-top: 5px;
+    position: relative;
+    left: -10px;
+    top: 20px;
+  }
+  .icon a {
+    margin: 5px;
+  }
+  .icon img{
+    width: 20px;
+    height: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: var(--Very-Dark-Blue);
+  }
+
+  .box-s{
+    width: 200px;
+    padding: 40px;
+    height: 30px;
+    background-color: var(--Dark-Blue);
+    position: relative;
+    margin-top: 20px;
+
+  }
+  .white-box{
+    position: absolute;
+    width: 100px;
+    height: 35px;
+    padding: 10px;
+    background-color: white;
+    border-radius:10px;
+    left: 30%;
+    top: 100px;
+  }
+  .white-box-content{
+  font-size: smaller;
+  margin-top: -1px;
+  margin-left: 5px;
+  }
+  #wh-bx-cn-ft{
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .white-box p{
+    color: black;
+  
+  }
+  .white-box-text-up{
+    position: absolute;
+    top: -5px;
+    margin-top: 30px;
+    font-weight:lighter;
+  }
+  
+  .op{
+    font-weight:bolder;
+  }
+  .fill-line{
+    background-color: var(--Very-Dark-Blue);
+    border-radius:15px;
+    width: 90%;
+  }
+  .fill-line-colored{
+  padding:5px;
+  margin-top: 20px;
+  background: linear-gradient(90deg,hsl(6, 100%, 80%) , hsl(335, 100%, 65%));
+  width: 70%;
+  border-radius:15px;
+  height: 1px;
+  }
+  .fill-line-circle{
+  border: 1px solid white;
+  text-align: end;
+  position: relative;
+  border-radius:50%;
+  background-color: white;
+  left: 120px;
+  bottom: 5px;
+  width: 10px;
+  height: 10px;
+  }
+  .white-box-text-down{
+    margin-top: 12px;
+    font-size: 8px;
+    width: 90%;
+  }
+  .end-text{
+    margin-left:125px;
+  }
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
